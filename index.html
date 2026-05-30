@@ -4,39 +4,76 @@
   <title>Valley Sparkle Cleaning</title>
   <style>
     body {
-      font-family: Arial;
       margin: 0;
-      background: #f5f7fa;
+      font-family: Arial;
+      background: #fff0f6;
+      color: #333;
     }
 
     header {
-      background: #2c7a7b;
+      background: linear-gradient(90deg, #ff4fa3, #ff8cc6);
       color: white;
-      padding: 30px;
       text-align: center;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 48px;
+    }
+
+    nav {
+      background: white;
+      text-align: center;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #ff4fa3;
+      font-weight: bold;
     }
 
     .container {
-      padding: 20px;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
+      padding: 20px;
     }
 
     .card {
       background: white;
-      padding: 20px;
-      margin-top: 15px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin: 20px 0;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     }
 
     h2 {
-      color: #2c7a7b;
+      color: #ff4fa3;
     }
 
-    .contact {
+    .big {
       font-size: 18px;
-      font-weight: bold;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #777;
+    }
+
+    .button {
+      display: inline-block;
+      background: #ff4fa3;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-top: 10px;
     }
   </style>
 </head>
@@ -45,44 +82,64 @@
 
 <header>
   <h1>Valley Sparkle Cleaning</h1>
-  <p>Clean homes. Happy life.</p>
+  <p>Where every home shines with care ✨</p>
 </header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="schedule.html">Schedule</a>
+</nav>
 
 <div class="container">
 
   <div class="card">
-    <h2>Our Services</h2>
-    <p>
-      • House Cleaning<br>
-      • Deep Cleaning<br>
-      • Kitchen Cleaning<br>
-      • Bathroom Cleaning<br>
-      • Move-in / Move-out Cleaning<br>
-      • Weekly & Monthly Cleaning<br>
-      • Office Cleaning
+    <h2>About Us</h2>
+    <p class="big">
+      Valley Sparkle Cleaning brings comfort, freshness, and sparkle into your home.
+      We focus on detail, trust, and a peaceful clean space you can feel the moment you walk in.
+    </p>
+    <p class="big">
+      Se habla español. English text available. Flexible scheduling every week.
     </p>
   </div>
 
   <div class="card">
-    <h2>About Us</h2>
-    <p>
-      Valley Sparkle Cleaning provides reliable home cleaning services in Arizona.
-      We make your space fresh, clean, and comfortable.
+    <h2>Services</h2>
+    <p class="big">
+      ✨ House Cleaning<br>
+      ✨ Deep Cleaning<br>
+      ✨ Kitchen & Bathroom Detailing<br>
+      ✨ Move-in / Move-out Cleaning<br>
+      ✨ Weekly & Monthly Maintenance<br>
+      ✨ Office & Small Business Cleaning
     </p>
-    <p>
-      Se habla español. English text available.
+  </div>
+
+  <div class="card">
+    <h2>Why Choose Us</h2>
+    <p class="big">
+      ✔ Reliable and respectful service<br>
+      ✔ Detail-focused cleaning<br>
+      ✔ Flexible scheduling<br>
+      ✔ Affordable pricing<br>
+      ✔ Spanish speaking available
     </p>
   </div>
 
   <div class="card">
     <h2>Contact</h2>
-    <p class="contact">
+    <p class="big">
       Phone: 602-703-6207<br>
       Name: Marcela
     </p>
+    <a class="button" href="schedule.html">Schedule Cleaning</a>
   </div>
 
 </div>
+
+<footer>
+  © Valley Sparkle Cleaning
+</footer>
 
 </body>
 </html>
